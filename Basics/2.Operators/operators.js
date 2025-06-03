@@ -10,3 +10,9 @@ let con2 = a === 5; // true
 console.log('con1 && con2 =', con1 && con2); // false
 console.log('con1 || con2 =', con1 || con2); // true
 console.log('!con2 =', !con2); // false
+
+// 5. Bitwise Operators (&, |, ^, ~)
+// 6. Conditional Operators (?:, ? :)
+// 7. Equality Operators (===, !==, ==, !=)
+// 8. Identity Operators (===, !==)
+// 9. Type Operators (typeof, instanceof)
