@@ -4,10 +4,10 @@
 console.log('Let\'s check if you can drive or not!');
 userAge = prompt("Please enter your age:");
 console.log(`Your age is ${userAge} years`);
+
 if (userAge >=18){
   console.log('You can drive.');
   } else {
     console.log('You cannot drive.');
 }
 // console.log('Your age is ' + userAge + ' years.');
-// if else Conditional Statement
