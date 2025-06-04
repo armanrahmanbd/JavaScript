@@ -11,8 +11,12 @@ console.log('con1 && con2 =', con1 && con2); // false
 console.log('con1 || con2 =', con1 || con2); // true
 console.log('!con2 =', !con2); // false
 
-// 5. Bitwise Operators (&, |, ^, ~)
-// 6. Conditional Operators (?:, ? :)
+// 5. Ternary Operators or Conditional Operators (?:, ? :)
+let age = 16;
+let result = age >=18 ? 'Adult' : 'Minor';
+console.log(result); // Adult
+
+// 6. Bitwise Operators (&, |, ^, ~) 
 // 7. Equality Operators (===, !==, ==, !=)
 // 8. Identity Operators (===, !==)
 // 9. Type Operators (typeof, instanceof)
