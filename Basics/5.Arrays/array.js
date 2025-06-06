@@ -27,3 +27,7 @@ for (let i = 0; i < numbers.length; i++) {
 for (let city of cities) {
   console.log(city);
 } // preferable & best practice method
+
+for (let city of cities) {
+  console.log(city.toUpperCase());
+}
