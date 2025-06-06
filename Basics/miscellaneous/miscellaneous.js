@@ -21,3 +21,9 @@ console.log(`The char replaced version of your given string is "${str1.replace('
 
 // string split
 console.log(`The split version of your given string is "${str.split('Arman')}" by using split() method`);
+
+// access string char
+// console.log(`The char at index 0 of your given string is "${str[0]}" by using index notation`); // Output: M
+
+// alternative by calling charAt() method
+console.log(`The char at index 14 of your given string is "${str.charAt(14)}" by using charAt() method`); // Output: A
