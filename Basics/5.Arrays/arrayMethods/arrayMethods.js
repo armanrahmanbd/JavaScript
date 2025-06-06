@@ -3,6 +3,9 @@
 let fruits = ["apple", "banana", "cherry"];
 console.log(fruits)
 
+// toString() method to turn array into a string
+console.log(fruits.toString()); // Output: apple,banana,cherry
+
 // push() method to add an element to the end of an array
 fruits.push("dates");
 console.log(`After adding 'dates' to the array by using push() method`);
@@ -33,3 +36,5 @@ console.log(fruits); // Output: ['apple', 'mango', 'banana', 'cherry']
 fruits.splice(1, 1);
 console.log(`After removing the element at index 1 by using splice() method`);
 console.log(fruits); // Output: ['apple', 'banana', 'cherry']
+
+// concat() method to join multiple arrays together
