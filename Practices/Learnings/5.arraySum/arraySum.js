@@ -12,7 +12,7 @@ console.log(`The average of student marks is ${sum/stuMarks.length}`);
 // using for loop
 let itemPrices = [250, 645, 300, 900, 50];
 for (let i=0; i<itemPrices.length; i++){
-   let offer = itemPrices[i]/ 10
-   
-  console.log(oferPrice)
+   let itemsOffer = itemPrices[i]/ 10;
+   itemPrices[i] -= itemsOffer;
 }
+console.log(itemPrices);
