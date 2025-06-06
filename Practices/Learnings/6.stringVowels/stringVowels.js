@@ -1,12 +1,24 @@
 // Find String Vowels using Functions
 
 function findVowels(str) {
-  let vowels = "aeiouAEIOU";
   let count = 0;
-  for (let vow of vowels) {
-    count += str.split(vow).length - 1;
+  for (let char of str) {
+    if (
+      char == "a" ||
+      char == "e" ||
+      char == "i" ||
+      char == "o" ||
+      char == "u" ||
+      char == "A" ||
+      char == "E" ||
+      char == "I" ||
+      char == "O" ||
+      char == "U"
+    ) {
+      count++;
+    }
   }
   return count;
 }
 // Test the function
-console.log(findVowels("Hello World")); // Output: 3
+console.log(findVowels("Arman Rahman")); // Output: 3
