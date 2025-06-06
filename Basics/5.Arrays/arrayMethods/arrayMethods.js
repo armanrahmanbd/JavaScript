@@ -26,6 +26,11 @@ fruits.shift();
 console.log(`After removing the first element by using shift() method`);
 console.log(fruits); // Output: ['apple', 'banana', 'cherry']
 
+// slice() method to extract a part of an array
+let slicedArray = fruits.slice(1, 3);
+console.log(`After extracting a part of the array by using slice() method`);
+console.log(slicedArray); // Output: ['banana', 'cherry']
+
 // splice() method to add elements from an array
 fruits.splice(1, 0, "mango");
 console.log(`After adding 'mango' to the array by using splice() method`);
