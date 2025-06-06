@@ -11,6 +11,10 @@ fruits.push("dates");
 console.log(`After adding 'dates' to the array by using push() method`);
 console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'dates']
 
+// pop() method to remove the last element from an array
+fruits.pop();
+console.log(`After removing the last element by using pop() method`);
+console.log(fruits); // Output: ['grapes', 'apple', 'banana', 'cherry']
 
 // unshift() method to add an element to the beginning of an array
 fruits.unshift("grapes");
@@ -22,15 +26,15 @@ fruits.shift();
 console.log(`After removing the first element by using shift() method`);
 console.log(fruits); // Output: ['apple', 'banana', 'cherry']
 
-// pop() method to remove the last element from an array
-fruits.pop();
-console.log(`After removing the last element by using pop() method`);
-console.log(fruits); // Output: ['grapes', 'apple', 'banana', 'cherry']
-
 // splice() method to add elements from an array
 fruits.splice(1, 0, "mango");
 console.log(`After adding 'mango' to the array by using splice() method`);
 console.log(fruits); // Output: ['apple', 'mango', 'banana', 'cherry']
+
+// splice() method to replace an element in an array
+fruits.splice(1, 2, "watermelon", "papaya");
+console.log(`After replacing elements in the array by using splice() method`);
+console.log(fruits); // Output: ['apple', 'watermelon', 'papaya', 'cherry']
 
 // splice() method to remove elements from an array
 fruits.splice(1, 1);
