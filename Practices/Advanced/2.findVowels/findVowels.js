@@ -27,9 +27,8 @@ function findVowels(str) {
   return {
     count: found.length,
     vowels: found,
-  }; 
+  };
 }
-
 
 // Test the function
 const result = findVowels("Hello World");
