@@ -21,9 +21,9 @@ let numbers = [1, 2, 3, 4, 5];
 // using for loop
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
-}
+} // workable
 
 // using for of loop
 for (let city of cities) {
   console.log(city);
-}
+} // preferable & best practice method
