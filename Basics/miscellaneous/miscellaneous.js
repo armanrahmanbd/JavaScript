@@ -27,3 +27,6 @@ console.log(`The split version of your given string is "${str.split('Arman')}" b
 
 // alternative by calling charAt() method
 console.log(`The char at index 14 of your given string is "${str.charAt(14)}" by using charAt() method`); // Output: A
+
+// remove all whitespaces or blankspaces into any string
+console.log(`The string without any blankspaces is "${str.replace(/\s/g, '')}" by replace() method`);
