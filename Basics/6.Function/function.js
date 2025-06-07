@@ -23,4 +23,3 @@ const mulNumber = (x, y) => {
   return x * y;
 };
 console.log(mulNumber(5, 12));
-

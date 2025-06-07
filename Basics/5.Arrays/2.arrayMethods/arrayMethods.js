@@ -1,7 +1,7 @@
 // JavaScript String Methods
 
 let fruits = ["apple", "banana", "cherry"];
-console.log(fruits)
+console.log(fruits);
 
 // toString() method to turn array into a string
 console.log(fruits.toString()); // Output: apple,banana,cherry
@@ -48,7 +48,7 @@ console.log(fruits); // Output: ['apple', 'banana', 'cherry']
 
 // concat() method to join multiple arrays together
 let fruits2 = ["kiwi", "lemon", "orange"];
-let fruits3 = ['pineapple', 'lici'];
+let fruits3 = ["pineapple", "lici"];
 console.log(fruits2, fruits3);
 console.log(`After joining two arrays by using concat() method`);
 console.log(fruits.concat(fruits2, fruits3)); // Output: ['apple', 'banana ', 'cherry', 'kiwi', 'lemon', 'orange', 'pineapple', 'lici']

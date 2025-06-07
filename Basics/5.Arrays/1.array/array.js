@@ -14,7 +14,6 @@ let numbers = [1, 2, 3, 4, 5];
 // // 7. Create an array of arrays
 // let arrays = [[1, 2, 3], [4, 5, 6 ], [7, 8, 9]];
 
-
 // access the array elements by using loops
 // 1. Use a for loop to access the elements of the cities array
 
