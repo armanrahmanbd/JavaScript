@@ -5,6 +5,12 @@ p.innerText = `${p.innerText}d using JavaScript`;
 
 let divs = document.querySelectorAll(".box");
 
-divs[0].innerHTML = "First Div";
-divs[1].innerText = "Second Div";
-divs[2].innerText = "Third Div";
+let idx = 1;
+for (let div of divs) {
+  div.innerText = `Div ${idx} changed by JS`;
+  idx++;
+}
+
+// divs[0].innerHTML = "First Div";
+// divs[1].innerText = "Second Div";
+// divs[2].innerText = "Third Div";
