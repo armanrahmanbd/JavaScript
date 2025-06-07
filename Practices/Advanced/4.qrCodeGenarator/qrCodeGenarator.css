@@ -61,13 +61,29 @@ header p{
 .form input::placeholder{
   color: #999;
 }
-.form button{
+.form .generate{
+  
+  background: #3498DB;
   color: #fff;
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
-  background: #3498DB;
+
 }
+.form .download {
+  display: none;
+    font-family: 'Poppins', sans-serif;
+     margin-top: 10px;
+     padding: 10px 20px;
+     background-color: #3498DB;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ .form .download:hover {
+     background-color: #2980B9;
+ }
 .qr-code{
   opacity: 0;
   display: flex;
