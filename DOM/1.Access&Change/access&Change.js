@@ -14,3 +14,5 @@ for (let div of divs) {
 // divs[0].innerHTML = "First Div";
 // divs[1].innerText = "Second Div";
 // divs[2].innerText = "Third Div";
+
+// 
