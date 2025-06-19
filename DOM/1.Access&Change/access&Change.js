@@ -46,7 +46,7 @@ jsBtn.style.border = "none"; // to set the border of the new element
 jsBtn.style.borderRadius = "5px"; // to set the border radius of the new element
 jsBtn.style.cursor = "pointer"; // to set the cursor of the new element
 jsBtn.style.margin = "10px"; // to set the margin of the new element
-jsBtn.style.h
+jsBtn.style.h;
 
 // show the new element
 
