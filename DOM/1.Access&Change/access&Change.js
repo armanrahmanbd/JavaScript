@@ -19,4 +19,9 @@ for (let div of divs) {
 // 1) Atributes
 // getAttribute(attr) // to get the value of an attribute
 
+let para = document.querySelector(".para");
+console.log(para.getAttribute("class")); // to get the value of the class attribute
+
 // setAttribute(attr) // to set the value of an attribute
+// para.setAttribute("para", "new-class");
+console.log(para.setAttribute("class", "new-para")); // to get the value of the class attribute
