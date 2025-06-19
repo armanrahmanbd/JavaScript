@@ -15,4 +15,8 @@ for (let div of divs) {
 // divs[1].innerText = "Second Div";
 // divs[2].innerText = "Third Div";
 
-// 
+// DOM Manipulation
+// 1) Atributes
+// getAttribute(attr) // to get the value of an attribute
+
+// setAttribute(attr) // to set the value of an attribute
